@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)",
+      "Bash(find 'C:\\\\PROJECTS\\\\Cafe Finder' -not -path */node_modules/* -not -path */.next/* -name *.ts -o -name *.tsx -o -name *.js -o -name *.json -o -name *.css -o -name *.md)",
+      "Bash(find 'C:\\\\PROJECTS\\\\Cafe Finder' -not -path */node_modules/* -not -path */.next/* \\\\\\(-name *.ts -o -name *.tsx -o -name *.js -o -name *.json -o -name *.css -o -name *.md \\\\\\))"
+    ]
+  }
+}
