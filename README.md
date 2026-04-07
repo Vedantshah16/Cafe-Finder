@@ -66,7 +66,7 @@
 | Language | TypeScript 5 |
 | Styling | Tailwind CSS |
 | Animations | Framer Motion |
-| Maps | Mapbox GL · react-map-gl |
+| Maps | Leaflet · react-leaflet (no API key needed) |
 | AI | OpenAI GPT-4o-mini |
 | Places | Google Places API |
 | Auth | NextAuth.js (JWT) |
@@ -110,9 +110,6 @@ OPENAI_API_KEY=sk-...
 # Google Places API
 GOOGLE_PLACES_API_KEY=AIza...
 NEXT_PUBLIC_GOOGLE_PLACES_KEY=AIza...
-
-# Mapbox (free tier available)
-NEXT_PUBLIC_MAPBOX_TOKEN=pk.eyJ1...
 
 # Google OAuth (optional)
 GOOGLE_CLIENT_ID=
@@ -195,7 +192,6 @@ npm start
 |-----|-------|
 | `OPENAI_API_KEY` | [platform.openai.com/api-keys](https://platform.openai.com/api-keys) |
 | `GOOGLE_PLACES_API_KEY` | [console.cloud.google.com](https://console.cloud.google.com) → Enable Places API |
-| `NEXT_PUBLIC_MAPBOX_TOKEN` | [account.mapbox.com/access-tokens](https://account.mapbox.com/access-tokens/) |
 | `MONGODB_URI` | [cloud.mongodb.com](https://cloud.mongodb.com) → Free M0 cluster |
 | `NEXTAUTH_SECRET` | `openssl rand -base64 32` |
 
